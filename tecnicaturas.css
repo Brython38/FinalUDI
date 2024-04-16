@@ -1,0 +1,86 @@
+/*Responsive Web Design*/
+
+*{
+    box-sizing: border-box;
+}
+ /*Fondo de pantalla de cada una de las páginas*/
+#admin{
+    background-image: url(img/WhatsApp\ Image\ 2023-11-11\ at\ 18.33.32\ \(1\).jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#turismo{
+    background-image: url(img/WhatsApp\ Image\ 2023-11-11\ at\ 18.33.31.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#software{
+    background-image: url(img/WhatsApp\ Image\ 2023-11-11\ at\ 18.33.32.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Estilo del Header*/
+
+header{
+    text-align: center;
+    width: 95%;/*Espacio que ocupa en pantalla*/
+    height: 120px;
+    border: inset 5px #3f52a1a2;
+    border-radius: 8px;
+    background-color: #333333a2;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1{
+    margin: 5px;
+}
+
+.regreso{/*Dimensiones del escudo dentro del header y su ubicación dentro del mismo*/
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+/*Estilo del Section*/
+
+section{
+    text-align: justify;
+    text-indent: 30px;
+    width: 60%;/*Espacio que ocupa en pantalla*/
+    border: inset 5px #3f52a1a2;
+    border-radius: 8px;
+    padding: 5px;
+    float: left;
+    height: auto;
+    margin: 10px;
+    background-color: #333333a2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+p{
+    text-align: justify;
+}
+
+/*Estilo del Aside*/
+
+aside{
+    border: inset 5px #3f52a1a2;
+    border-radius: 8px;
+    width: 35%;/*Espacio que ocupa en pantalla*/
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    background-color: #333333a2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
